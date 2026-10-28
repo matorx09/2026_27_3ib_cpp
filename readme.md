@@ -15,7 +15,7 @@ Assicurati di avere un compilatore C++ installato (es. `g++` o `clang`).
 Apri il terminale all'interno della cartella del progetto ed esegui:
 
 ```bash
-g++ -std=c++17 main.cpp -o corso_cpp
+g++ main.cpp -o corso_cpp
 ```
 
 ### Esecuzione
