@@ -99,11 +99,12 @@ int main() {
 ## 📝 Regole per la Consegna
 1. Fai il **fork** o **clona** questo repository nel tuo ambiente locale.
    Come si fa:
-   a. spostati in una cartella progetti nella tua home/nome_utente/repos/ con il comando cd....
-   b. inizializza la cartella facendola diventare un repository con il comando git init
-   c. aggiungi la firma per i tuoi commit con il comando git config --global user.name "tuo nome utente github"
+   a. spostati in una cartella progetti nella tua home/nome_utente/repos/ con il comando `cd....`
+   b. inizializza la cartella facendola diventare un repository con il comando `git init`
+   c. aggiungi la firma per i tuoi commit con il comando `git config --global user.name "tuo nome utente github"`
    d. inserisci come password, il tuo token-classic personale creato nel sito di github
-   e. clona il repository online da github verso la tua cartella con il comando git clone URL-che-trovi-nel-repo-github-online.git
+   e. clona il repository online da github verso la tua cartella con il comando `git clone URL-che-trovi-nel-repo-github-online.git`
    f. esplora la tua cartella locale per controllare se la clonazione è andata a buon fine
+4. Scarica eventuali aggiornamenti che il Prof. ha effettuato con il comando `git pull origin`
 4. Effettua periodicamente i commit con messaggi chiari (es. `git commit -m "Completato esercizio 05 Puntatori"`).
-5. Effettua il `git push` sul tuo repository GitHub remoto.
+5. Effettua il `git push` sul tuo repository GitHub remoto con il comando `git push origin` 
