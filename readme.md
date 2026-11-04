@@ -55,6 +55,8 @@ Il programma dovrà seguire una struttura simile al seguente scheletro base:
 ```cpp
 #include <iostream>
 
+using namespace std;
+
 // Prototipi delle funzioni/esercizi
 void es_01_tipi_variabili();
 void es_02_controllo_flusso();
@@ -64,15 +66,15 @@ int main() {
     int scelta = -1;
 
     while (scelta != 0) {
-        std::cout << "\n===================================\n";
-        std::cout << "   MENU ESERCIZI C++\n";
-        std::cout << "===================================\n";
-        std::cout << " 1. Tipi e Variabili\n";
-        std::cout << " 2. Controllo Flusso\n";
-        std::cout << " ...\n";
-        std::cout << " 0. Esci\n";
-        std::cout << "Inserisci la tua scelta: ";
-        std::cin >> scelta;
+        cout << "\n===================================\n";
+        cout << "    MENU ESERCIZI C++\n";
+        cout << "===================================\n";
+        cout << " 1. Tipi e Variabili\n";
+        cout << " 2. Controllo Flusso\n";
+        cout << " ...\n";
+        cout << " 0. Esci\n";
+        cout << "Inserisci la tua scelta: ";
+        cin >> scelta;
 
         switch (scelta) {
             case 1:
@@ -83,18 +85,15 @@ int main() {
                 break;
             // ...
             case 0:
-                std::cout << "Uscita dal programma.\n";
+                cout << "Uscita dal programma.\n";
                 break;
             default:
-                std::cout << "Opzione non valida!\n";
+                cout << "Opzione non valida!\n";
         }
     }
 
     return 0;
 }
-```
-
----
 
 ## 📝 Regole per la Consegna
 1. Fai il **fork** o **clona** questo repository nel tuo ambiente locale.
