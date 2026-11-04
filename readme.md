@@ -104,6 +104,6 @@ int main() {
    d. inserisci come password, il tuo token-classic personale creato nel sito di github
    e. clona il repository online da github verso la tua cartella con il comando `git clone URL-che-trovi-nel-repo-github-online.git`
    f. esplora la tua cartella locale per controllare se la clonazione è andata a buon fine
-4. Scarica eventuali aggiornamenti che il Prof. ha effettuato con il comando `git pull origin`
-4. Effettua periodicamente i commit con messaggi chiari (es. `git commit -m "Completato esercizio 05 Puntatori"`).
-5. Effettua il `git push` sul tuo repository GitHub remoto con il comando `git push origin` 
+2. Scarica con il comando `git pull origin` eventuali aggiornamenti che il Prof. ha effettuato.
+3. Effettua periodicamente i commit con messaggi chiari (es. `git commit -m "Completato esercizio 05 Puntatori"`).
+4. Effettua il `git push` sul tuo repository GitHub remoto con il comando `git push origin` 
